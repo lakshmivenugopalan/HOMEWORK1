@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <form>
+        <div class="container">
+            <div class="row">
+                <div class="col col-12"></div>
+                <div class="col col-12 col sm-3">
+                    <table class="table">
+                        <tr>
+                            <td>NAME</td>
+                            <td><input type="text" class="form-control" id="name"></td>
+                        </tr>
+                        <tr>
+                            <td>ADDRESS</td>
+                            <td><input type="text" class="form-control" id="address"></td>
+                        </tr>
+                        <tr>
+                            <td>EMAIL</td>
+                            <td><input type="text" class="form-control" id="EMAIL"></td>
+                        </tr>
+                        <tr>
+                            <td>DOB</td>
+                            <td><input type="date" id="DOB"></td>
+                        </tr>
+                        <tr>
+                            <td>USER NAME</td>
+                            <td><input type="text" class="form-control" id="USER NAME"></td>
+                        </tr>
+                        <tr>
+                            <td>PASSWORD</td>
+                            <td><input type="text" class="form-control" id="PASSWORD"></td>
+                        </tr>
+                        <tr>
+                            <td>CONFIRM PASSWORD</td>
+                            <td><input type="text" class="form-control" id="CONFIRM PASSWORD"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <buttontype="button" class="btn btn-secondary" onclick="enter in registers();">REGISTER</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <p id="REGISTER"></p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script>
+        function entervalues() {
+            var NAME = document.getElementById("NAME").value;
+            var ADDRESS = document.getElementById("ADDRESS").value;
+            var EMAIL = document.getElementById("EMAIL").value;
+            var DOB = document.getElementById("DOB").value;
+            var USERNAME = document.getElementById("USERNAME").value;
+            var PASSWORD = document.getElementById("PASSWORD").value;
+            var CONFIRM = document.getElementById("CONFIRMPASSWORD").value;
+
+        }
+        document.getElementById("REGISTER").innerHTML
+    </script>
+
+</body>
+
+</html>
