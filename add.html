@@ -48,13 +48,13 @@
                         <tr>
                             <td></td>
                             <td>
-                                <buttontype="button" class="btn btn-secondary" onclick="enter in registers();">REGISTER</button>
+                                <buttontype="button" class="btn btn-secondary" onclick="enterdata();">REGISTER</button>
                             </td>
                         </tr>
                         <tr>
                             <td></td>
                             <td>
-                                <p id="REGISTER"></p>
+                                <p id="result"></p>
                             </td>
                         </tr>
                     </table>
@@ -63,17 +63,17 @@
         </div>
     </form>
     <script>
-        function entervalues() {
+        function enterdata() {
             var NAME = document.getElementById("NAME").value;
             var ADDRESS = document.getElementById("ADDRESS").value;
             var EMAIL = document.getElementById("EMAIL").value;
             var DOB = document.getElementById("DOB").value;
             var USERNAME = document.getElementById("USERNAME").value;
             var PASSWORD = document.getElementById("PASSWORD").value;
-            var CONFIRM = document.getElementById("CONFIRMPASSWORD").value;
+            var CONFIRMPASSWORD = document.getElementById("CONFIRMPASSWORD").value;
 
         }
-        document.getElementById("REGISTER").innerHTML
+        document.getElementById("result").innerHTML = "result"
     </script>
 
 </body>
